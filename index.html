@@ -8,7 +8,7 @@
 <style>
     .flex-container {
       display: flex;
-      background-color: rgb(71, 141, 211);
+      background-color: skyblue;
     }
     
     .flex-container> div {
@@ -45,13 +45,24 @@
         text-align: center;
         padding: 20px 0;
         font-size: 30px;
-        border: 5px outset red;
+        border: 5px outset skyblue;
       }
       </style>
+      <style>
+        body{
+          background-color: black;
+        }
+      </style>
+      <script class="chumma"  ,src="./linkscript.js"></script>
+      <b><i><p id = "hello"></p></i></b>
+        <button onclick="first()">In 1st year</button>
+        <button onclick="second()">In 2nd year</button>
+        <button onclick="third()">In 3rd year</button>
+        <button onclick="final()">In final year</button>
       </head>
       <body>
       
-      <h1>The grid Property</h1>
+      <h1 class="chumma">The grid Property</h1>
       
     
       
@@ -65,10 +76,15 @@
         <div>7</div>
         <div>8</div>
       </div>
+      <style>
+        .chumma{
+          color: azure;
+        }
+      </style>
 <style>
     .myDiv {
-      border: 5px outset orangered;
-      color: azure;
+      border: 5px outset skyblue;
+      color: white;
       background-color:black;
       text-align: center;
     }
@@ -84,43 +100,45 @@
     <h1
     ></h1>
     <img src ="gvv.jpg" style="width: 400px;">
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+    <p class="chumma">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
         including versions of Lorem Ipsum</p>
     <u>NUMBERS</u>
-    <ul> 
+    <ul class="chumma"> 
     <li>10th</li>
     <li>11th</li>
     <li>12th</li>
     <li>14th</li>
     </ul>
 
-    <ol>
+    <ol class="chumma">
     <li>10th</li>
     <li>11th</li>
     <li>12th</li>
     <li>13th</li>
     </ol>
 
-    <ol type ="1" start="1">
+    <ol class="chumma" ,type ="1" start="1">
     <li>10</li>
     <li>11</li>
     <li>12</li>
     <li>13</li>
     </ol>
     
-    <ol type ="I" start="5">
+    <ol class = "chumma", type ="I" start="5"
     <li>10</li>
     <li>11</li>
     <li>12</li>
     <li>13</li>
     </ol>
 
-    <ol type = "A" start="10">
+    <ol class = "chumma",type = "A" start="10">
     <li>10</li>
     <li>11</li>
     <li>12</li>
     <li>13</li>
     </ol>
+
+    <button onclick = "window.print()">Print This pages</button>
 </body>
 </html>
